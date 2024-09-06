@@ -1,0 +1,71 @@
+section {
+  margin-left: 500px;
+  margin-top: -500px;
+}
+body {
+  color: rgb(0, 0, 0);
+}
+
+h3 {
+  color: rgb(255, 255, 255);
+}
+blockquote {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(0, 0, 0);
+}
+body {
+  font-size: 20px;
+}
+
+div img {
+  /* border-radius: 10px; */
+  /* margin-top: -180px; */
+  /* margin-left: 500px; */
+  width: 350px;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body {
+  background: linear-gradient(270deg, #ff5213, #037adb);
+  background-size: 400% 400%;
+  animation: gradient 4s ease infinite;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+section0 {
+  float: right;
+  margin-top: -250px;
+  border-radius: 20px;
+}
+
+a:link {
+  color: red;
+}
+
+a:hover {
+  font-weight: bolder;
+  color: black;
+}
+
+a:active {
+  color: chartreuse;
+}
+
+a:focus {
+  background-color: blueviolet;
+}
